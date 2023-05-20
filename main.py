@@ -10,7 +10,7 @@ def main():
     while True:
         menu()
 
-        choice = input("Choos your an action (1-3): ")
+        choice = input("Choose your an action (1-3): ")
         
         if choice == "1":
             print_quote(random_quote())
