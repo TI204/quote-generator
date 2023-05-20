@@ -29,4 +29,6 @@ def view_quotes():
     for quote in quotes:
         print_quote(quote)
 
-
+def add_quote():
+        new_quote = input("Enter a quote: ")
+        quotes.append(new_quote)
